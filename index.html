@@ -5,51 +5,100 @@
   <title>TPxTax Link Collection</title>
   <style>
     body {
-      font-family: sans-serif;
-      max-width: 600px;
-      margin: 40px auto;
-      padding: 20px;
-      background: #f9f9f9;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 0;
     }
+
+    .container {
+      max-width: 700px;
+      margin: 50px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
     h1 {
       text-align: center;
+      font-size: 2em;
+      color: #333;
+      margin-bottom: 30px;
     }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 1.2em;
+      color: #555;
+      border-left: 4px solid #007bff;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
+
     li {
-      margin: 10px 0;
+      margin-bottom: 10px;
     }
+
     a {
       display: block;
-      padding: 10px;
+      padding: 12px 16px;
       background: #007bff;
       color: white;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
+      transition: background 0.2s ease-in-out;
     }
+
     a:hover {
       background: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>TPxTax Link Collection</h1>
-  <ul>
-    <li><a href="https://tpx-tax.vercel.app/" target="_blank">TPx tax website</a></li>
-    <li><a href="https://tpx-ai-hub.vercel.app/" target="_blank">TPx AI Hub</a></li>
-    <li><a href="https://bpdanalyticagmbh-my.sharepoint.com/:x:/g/personal/christianschoppe_tpx-tax_com/EcblxSDAATVNi931_JkO5tkBueJTprF93JwtnryBKw-6Gg?e=i0pusa&CID=D7AB30ED-4582-40AF-90F9-63C357514E6B&wdLOR=cF7A775FB-7880-4E4A-A3F8-6FC2FA3C944B" target="_blank">AI master prompt</a></li>
-  </ul>ul>
-  <ul>
-    <li><a href="https://dev.tpx-tax.app/" target="_blank">LFE developement area</a></li>
-    <li><a href="https://tpx-tax.app/" target="_blank">LFE production area</a></li>
-    <li><a href="https://sheepskin.notion.site/New-ACL-Concept-for-LFE-1a2f71ccca04800f8cebd56f647a4e5b" target="_blank">LFE new auth concept</a></li>
-    <li><a href="https://cal.com/keying-wu/flexible-meeting?duration=15&date=2025-03-24" target="_blank">Keying's calendar</a></li>
-    <li><a href="https://tpx-tax.vercel.app/" target="_blank">TPx tax website</a></li>
-    <!-- Add more links here -->
-  </ul>
+  <div class="container">
+    <h1>TPxTax Link Collection</h1>
+
+    <div class="section">
+      <h2>TPx Platforms</h2>
+      <ul>
+        <li><a href="https://tpx-tax.vercel.app/" target="_blank">TPx Tax Website</a></li>
+        <li><a href="https://tpx-ai-hub.vercel.app/" target="_blank">TPx AI Hub</a></li>
+        <li><a href="https://bpdanalyticagmbh-my.sharepoint.com/:x:/g/personal/christianschoppe_tpx-tax_com/EcblxSDAATVNi931_JkO5tkBueJTprF93JwtnryBKw-6Gg?e=i0pusa&CID=D7AB30ED-4582-40AF-90F9-63C357514E6B&wdLOR=cF7A775FB-7880-4E4A-A3F8-6FC2FA3C944B" target="_blank">AI Master Prompt (SharePoint)</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>LFE Development</h2>
+      <ul>
+        <li><a href="https://dev.tpx-tax.app/" target="_blank">LFE Development Area</a></li>
+        <li><a href="https://tpx-tax.app/" target="_blank">LFE Production Area</a></li>
+        <li><a href="https://sheepskin.notion.site/New-ACL-Concept-for-LFE-1a2f71ccca04800f8cebd56f647a4e5b" target="_blank">New Auth Concept (Notion)</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Other</h2>
+      <ul>
+        <li><a href="https://cal.com/keying-wu/flexible-meeting?duration=15&date=2025-03-24" target="_blank">Keying's Calendar</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
