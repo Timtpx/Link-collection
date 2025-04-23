@@ -3,40 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <title>TPxTax Link Collection</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #eef2f7;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #dfe9f3 0%, #ffffff 100%);
       margin: 0;
       padding: 0;
     }
 
     .container {
-      max-width: 700px;
-      margin: 50px auto;
-      padding: 30px;
-      background: white;
-      border-radius: 16px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 40px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-5px);
     }
 
     h1 {
       text-align: center;
-      font-size: 2em;
-      color: #333;
-      margin-bottom: 30px;
-    }
-
-    .section {
+      font-size: 2.5em;
+      color: #222;
       margin-bottom: 40px;
     }
 
+    .section {
+      margin-bottom: 50px;
+    }
+
     .section h2 {
-      font-size: 1.2em;
-      color: #555;
-      border-left: 4px solid #007bff;
-      padding-left: 10px;
-      margin-bottom: 15px;
+      font-size: 1.4em;
+      color: #007bff;
+      border-bottom: 2px solid #007bff33;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      position: relative;
     }
 
     ul {
@@ -46,27 +54,40 @@
     }
 
     li {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
 
     a {
-      display: block;
-      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 20px;
       background: #007bff;
       color: white;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background 0.2s ease-in-out;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0, 123, 255, 0.2);
+      transition: all 0.3s ease;
+      font-weight: 500;
     }
 
     a:hover {
       background: #0056b3;
+      transform: translateX(5px);
+    }
+
+    a i {
+      min-width: 20px;
     }
 
     @media (max-width: 600px) {
       .container {
         margin: 20px;
-        padding: 20px;
+        padding: 25px;
+      }
+
+      h1 {
+        font-size: 2em;
       }
     }
   </style>
@@ -78,26 +99,26 @@
     <div class="section">
       <h2>TPx Platform</h2>
       <ul>
-        <li><a href="https://tpx-tax.vercel.app/" target="_blank">TPx Tax Website</a></li>
-        <li><a href="https://tpx-ai-hub.vercel.app/" target="_blank">AI Hub</a></li>
-        <li><a href="https://tabletomarkdown.com/convert-spreadsheet-to-markdown/" target="_blank">Convert Excel table into mark-down version</a></li>
+        <li><a href="https://tpx-tax.vercel.app/" target="_blank"><i class="fas fa-globe"></i> TPx Tax Website</a></li>
+        <li><a href="https://tpx-ai-hub.vercel.app/" target="_blank"><i class="fas fa-robot"></i> AI Hub</a></li>
+        <li><a href="https://tabletomarkdown.com/convert-spreadsheet-to-markdown/" target="_blank"><i class="fas fa-table"></i> Convert Excel to Markdown</a></li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Document Editor</h2>
       <ul>
-        <li><a href="https://dev.tpx-tax.app/" target="_blank">LFE Development Area</a></li>
-        <li><a href="https://tpx-tax.app/" target="_blank">LFE Production Area</a></li>
-        <li><a href="https://sheepskin.notion.site/New-ACL-Concept-for-LFE-1a2f71ccca04800f8cebd56f647a4e5b" target="_blank">New Auth Concept (Notion)</a></li>
+        <li><a href="https://dev.tpx-tax.app/" target="_blank"><i class="fas fa-code"></i> LFE Development Area</a></li>
+        <li><a href="https://tpx-tax.app/" target="_blank"><i class="fas fa-file-alt"></i> LFE Production Area</a></li>
+        <li><a href="https://sheepskin.notion.site/New-ACL-Concept-for-LFE-1a2f71ccca04800f8cebd56f647a4e5b" target="_blank"><i class="fas fa-lock"></i> New Auth Concept (Notion)</a></li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Other</h2>
       <ul>
-        <li><a href="https://cal.com/keying-wu" target="_blank">Keying's Calendar</a></li>
-        <li><a href="https://cal.com/timeggebrecht-tpxtax" target="_blank">Tim's Calendar</a></li>
+        <li><a href="https://cal.com/keying-wu" target="_blank"><i class="fas fa-calendar"></i> Keying's Calendar</a></li>
+        <li><a href="https://cal.com/timeggebrecht-tpxtax" target="_blank"><i class="fas fa-calendar-check"></i> Tim's Calendar</a></li>
       </ul>
     </div>
   </div>
